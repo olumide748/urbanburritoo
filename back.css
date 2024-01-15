@@ -1,0 +1,54 @@
+
+@media (min-width: 301px) and (max-width: 600px) {
+    .dflex{
+        display: flex;
+        column-gap: px;
+        flex-direction: column;
+        
+
+    }
+    .wfoods{
+        margin-left: 80px ;
+        width:100 ;
+    }
+    .food{
+       width: 400%;
+       padding-bottom: 12px;
+       
+    }
+    .col-6{
+        width: 100%;
+    }
+    .flextruck{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    }
+
+
+}
+    
+  
+
+@media (min-width: 756px) and (max-width: 1400px) {
+
+    .dflex{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        
+    }
+    .wfoods{
+        width: 90%;
+        margin-left:55px ;
+    }
+    .food{
+        width: 600%;
+        padding-bottom: 12px;
+        
+     }
+     .col-6{
+        width: %;
+        
+    }
+ 
+}
